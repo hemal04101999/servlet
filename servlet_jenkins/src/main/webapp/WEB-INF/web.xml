@@ -1,0 +1,23 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+		<param-name>copyrights</param-name>
+		<param-value>selvi</param-value>
+	</context-param>
+	<servlet>
+	<servlet-name>ColorsServlet</servlet-name>
+	<servlet-class>com.test.servlet.ColorsServlet</servlet-class>
+	<init-param>
+			<param-name>author</param-name>
+			<param-value>selvi</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>ColorsServlet</servlet-name>
+	<url-pattern>/colors1</url-pattern>
+	</servlet-mapping>
+</web-app>
